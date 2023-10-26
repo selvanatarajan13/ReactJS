@@ -1,0 +1,201 @@
+                                React JS
+
+------------------------------------------------------------------------
+
+To perform a complete react project , we need some extension ....
+
+**********************Required extension***************************
+1st install the react 
+2nd to install the babel extension babel is the JS compiler and also convert the js code for latest versions.
+3rd to install the react snippets extension . its help to write the react and jsx code fast.
+
+the above three extension is major.
+
+
+***************************************************************************
+React Chapters # :=>
+***************************************************************************
+
+
+
+test_app1 => ( Demo site )
+# JSX - JavaScript XML 
+# React setup
+# React tree form
+# React components
+# React functional components
+# React style css
+# React function methods of calling
+# React  useState Hook
+
+test_app2 => ( Todo app )
+# repeat the chapters in the test_app1
+# React useState Hook
+# React list & keys
+# React icons
+# React props & Props_Drilling
+# React useref Hook
+# React useEffect Hook
+# React JSON
+# React useState Hook methods
+# React localstorage & sessionStorage
+# React fetch_API
+# React API_Request in ManyUsage
+# React CRUD - Create Read Update Delete => {    URL call names
+    Create - create the new property in json -------> POST
+    Read   - Read the DB data ----------------------> GET (fetch)
+    Update - Update the current state or value -----> PATCH or PUT (Use if you want to change only one value in an id, otherwiswe use put.)
+    Delete - Delete the any property on the json ---> DELETE
+}
+
+test_app3 => (demo social media app)
+# repeat the chapters in the test_app 1 & 2
+# React routers V6
+# React css
+# React_Axios API Request
+# React_Custom Hook
+# React Context API 
+# React useContext Hook
+# Git initlize codes
+# Deploy
+
+
+Capital letters is only Used for components file...
+
+------------------------------------------------------------------------
+
+Create new "React" project cmd :
+
+CMD :=> npx create-react-app "filename" or "project name".
+
+-------------------------------------------------------------------------
+
+What is Babel ? Why Babel is used for React ?
+
+Babel is a popular open-source JavaScript compiler that allows developers 
+to write code using the latest ECMAScript (ES) syntax and features, and then
+transform that code into backward-compatible versions of JavaScript that can 
+run in older browsers or environments.
+
+Download Babel command : "npm install --save-dev @babel/plugin-proposal-private-property-in-object"
+
+-------------------------------------------------------------------------
+
+React--icons
+
+first install the package
+cmd::=> npm install react-icons --save
+
+icons :=> https://react-icons.github.io/react-icons
+
+https://www.npmjs.com/package/react-icons
+
+----------------------------------------------------------------------------
+
+https://react.dev/learn/rendering-lists#keeping-list-items-in-order-with-key
+
+ On this page, you’ll use filter() and map() with React to filter and transform your 
+ array of data into an array of components.
+
+----------------------------------------------------------------------------
+
+React_Props & Props_Drilling :
+
+what is Props ?
+    The term "render prop" refer to a technique for sharing code between React components using a prop whose value is a function.
+
+
+----------------------------------------------------------------------------
+
+Chapter :-- React_Fetch API DATA 
+
+Create the JSON REST Server :
+
+Get a full fake REST API with zero coding in less than 30 seconds (seriously)
+
+1=>Create the DB folder outside on the  "src" folder 
+2=> to create the JSON file on the DB folder
+
+finally launch the JSON Temporary server ,
+
+cmd:=> npx json-server -p 3500 -w data/database.json
+
+
+https://www.npmjs.com/package/json-server
+
+why we used the JSON server ?
+    in the case json server is used for the data on the server db.
+
+the data is also store to the localstorage on the server. But when the server is down or break , the data is
+erased.the solution of this problem solve by using the JSON server.
+
+The command "npx json-server -p 3500 -w data/db.json" is used to start a simple JSON server for development and testing purposes. This command utilizes Node Package Runner (npx) to execute the "json-server" package, passing some additional options to customize its behavior.
+
+npx: npx is a tool that comes with npm (Node Package Manager) and allows you to run Node.js packages without globally installing them. It checks whether the package is installed locally within your project's "node_modules" folder or not, and if it's not found, it temporarily installs it before executing the command.
+
+json-server: This is the name of the package being executed. It is a popular Node.js package specifically designed to serve a JSON-based mock REST API. It allows you to quickly set up a server that responds to HTTP requests with JSON data, simulating a backend API.
+
+-p 3500: This option specifies the port number on which the JSON server will run. In this case, the server will be accessible at port 3500. If you want the server to run on a different port, you can change the number accordingly.
+
+-w data/db.json: This option tells the JSON server to watch the "db.json" file located in the "data" folder. The "db.json" file will typically contain the JSON data that the server will serve in response to various HTTP requests.
+
+
+----------------------------------------------------------------------------
+
+React - Route - DOM :
+
+A "Route" refer to a mechanism used for handling different URLs and rendering different components based on the current URL. Routing is an essentail part of building single-page application (SPA) where the content changes dynamically without Requiring a full page reload.
+
+React itself does not have built-in routing capabilities. Instead, developers commonly use third-party libraries for handling routing in React applications. One of the most popular routing libraries for React is "React Router."
+
+
+React Router ships with a few hooks that let you access the state of the router and perform navigation from inside your components. Please note: You need to be using React >= 16.8 in order to use any of these hooks!.
+
+Routing types :
+1.Router
+2.BrowsersRoute
+3.HashRouter
+4.MemoryRouter
+5.NativeRouter
+6.StaticRouter
+
+here, i'm seeing the "BrowsersRoute".
+
+Hook : useParams() 
+
+The useParams hook returns an object of key/value pairs of the dynamic params from the current URL that were matched by the <Route path>. Child routes inherit all params from their parent routes.
+this hook return key/value pair only , so the value get in array method.
+
+syntax :=> <Route path="/post_page/post/:id" element={<Post />}></Route>
+syntax :=> const { UserId } = useParams(); (receiver side)
+
+more info : https://reactrouter.com/en/main/hooks/use-params
+
+the above website is also contain information of  "Route Hooks".
+
+
+React Hooks types and functions :=> "https://www.freecodecamp.org/news/react-hooks-cheatsheet/"
+
+----------------------------------------------------------------------------
+
+React Format function : 
+
+If you're referring to formatting the output of a React component or formatting data within a React application, you might be looking for ways to display data in a specific way, such as formatting dates, numbers, or text. In this case, you would typically use JavaScript functions for formatting, and React components for rendering the formatted content.
+
+in this case , we used for date time format function..
+
+cmd:=> date time format cmd --> "npm i date-fns -S"
+
+When using a date time or numbers in an object property, use the format function....
+
+
+----------------------------------------------------------------------------
+
+React : React_Axios API
+
+In ReactJS, Axios is a library that serves to create HTTP requests that are present externally. It is evident from the fact that we may sometimes in React applications need to get data from the external source. It is quite difficult to fetch such data so that they can be normally shown on the website.
+
+cmd:=> "npm i axios"
+
+----------------------------------------------------------------------------
+
