@@ -1,0 +1,116 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "checked": true,
+      "data": "Why React"
+    },
+    {
+      "id": 2,
+      "checked": true,
+      "data": "JSX"
+    },
+    {
+      "id": 3,
+      "checked": true,
+      "data": "React setup"
+    },
+    {
+      "id": 4,
+      "checked": true,
+      "data": "Functional components"
+    },
+    {
+      "id": 5,
+      "checked": true,
+      "data": "Click events"
+    },
+    {
+      "id": 6,
+      "checked": true,
+      "data": "React icons"
+    },
+    {
+      "id": 7,
+      "checked": true,
+      "data": "react use state Hook"
+    },
+    {
+      "id": 8,
+      "checked": true,
+      "data": "react list and keys"
+    },
+    {
+      "id": 9,
+      "checked": true,
+      "data": "react props & props_drilling"
+    },
+    {
+      "id": 10,
+      "checked": true,
+      "data": "react _controlled inputs"
+    },
+    {
+      "id": 11,
+      "checked": true,
+      "data": "use ref hook"
+    },
+    {
+      "id": 12,
+      "checked": true,
+      "data": "use effect hook"
+    },
+    {
+      "id": 13,
+      "checked": true,
+      "data": "local storage"
+    },
+    {
+      "id": 14,
+      "checked": true,
+      "data": "react_fetch api data"
+    },
+    {
+      "id": 15,
+      "checked": true,
+      "data": "crud operation"
+    },
+    {
+      "id": 16,
+      "checked": false,
+      "data": "router v6"
+    },
+    {
+      "id": 17,
+      "checked": false,
+      "data": "css"
+    },
+    {
+      "id": 18,
+      "checked": false,
+      "data": "Axios  API request"
+    },
+    {
+      "id": 19,
+      "checked": false,
+      "data": "custom hooks"
+    },
+    {
+      "id": 20,
+      "checked": false,
+      "data": "Context API & useContext Hook"
+    },
+    {
+      "id": 21,
+      "checked": false,
+      "data": "Deploy react Apps"
+    }
+  ],
+  "contact": [
+    {
+      "id": 1,
+      "checked": false,
+      "name": "Mahendran"
+    }
+  ]
+}
