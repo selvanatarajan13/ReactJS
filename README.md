@@ -18,8 +18,6 @@ ReactJS is an open-source JavaScript library that is used for building user inte
 5. React style css
 6. React function methods of calling
 7. React  useState Hook
-
-test_app2 => ( Todo app )
 8. repeat the chapters in the test_app1
 9. React useState Hook
 10. React list & keys
@@ -32,14 +30,7 @@ test_app2 => ( Todo app )
 17. React localstorage & sessionStorage
 18. React fetch_API
 19. React API_Request in ManyUsage
-20. React CRUD - Create Read Update Delete => {    URL call names
-    Create - create the new property in json -------> POST
-    Read   - Read the DB data ----------------------> GET (fetch)
-    Update - Update the current state or value -----> PATCH or PUT (Use if you want to change only one value in an id, otherwiswe use put.)
-    Delete - Delete the any property on the json ---> DELETE
-}
-
-test_app3 => (demo social media app)
+20. React CRUD
 21. React routers V6
 22. React css
 23. React_Axios API Request
