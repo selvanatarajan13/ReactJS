@@ -45,7 +45,7 @@ ReactJS is an open-source JavaScript library that is used for building user inte
 To get started with this project, clone the repository and install the dependencies:
 
 ```bash
-git clone https://github.com/selvanatarajan13/ReactJS
+git clone https://github.com/selvanatarajan13/ReactJS//tree/main
 cd reactjs-learning
 npm install
 
