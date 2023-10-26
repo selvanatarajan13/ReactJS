@@ -34,11 +34,8 @@ ReactJS is an open-source JavaScript library that is used for building user inte
 21. React routers V6
 22. React css
 23. React_Axios API Request
-24. React_Custom Hook
-25. React Context API 
-26. React useContext Hook
-27. Git initlize codes
-28. Deploy
+24. Git initlize codes
+25. Deploy
 
 ## Installation
 
