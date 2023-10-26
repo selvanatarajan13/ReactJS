@@ -1,4 +1,4 @@
-# ReactJS Learning Project
+# ReactJS Learning
 
 ## Introduction
 
