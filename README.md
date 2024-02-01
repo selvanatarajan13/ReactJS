@@ -46,5 +46,22 @@ git clone https://github.com/selvanatarajan13/ReactJS//tree/main
 cd reactjs-learning
 npm install
 
-## Running the Project
+## To Create a new project
+npx create-react-app "enter your project name"
+
+## To Run the Project
 npm start
+
+# To download React icons
+npm install react icons --save
+
+## ReactReact icons site url
+## https://www.npmjs.com/package/react-icons
+
+## To create the JSON REST server
+npx json-server -p "enter your port" -w "enter your db path"
+
+## To create ReactJS_Axios API
+npm i axios
+
+## Axios is a popular library used in ReactJS making HTTP request to external resources.
