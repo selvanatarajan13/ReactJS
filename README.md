@@ -52,6 +52,9 @@ npx create-react-app "enter your project name"
 ## To Run the Project
 npm start
 
+## To install Babel
+npm install --save-dev @babel/plugin-proposal-private-property-in-object
+
 # To download React icons
 npm install react icons --save
 
