@@ -68,3 +68,11 @@ npx json-server -p "enter your port" -w "enter your db path"
 npm i axios
 
 ## Axios is a popular library used in ReactJS making HTTP request to external resources.
+
+## To add React Router in your application
+
+npm i -D react-router-dom
+
+## if you are upgrading from v5
+npm i -D react-router-dom@latest
+
