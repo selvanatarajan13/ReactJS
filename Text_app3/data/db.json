@@ -51,14 +51,20 @@
     {
       "id": 9,
       "title": "React_Axios API",
-      "datetime": "October 21, 2023 12:22:32 AM",
+      "datetime": "October 19, 2024 7:39:50 PM",
       "content": "In ReactJS, Axios is a library that serves to create HTTP requests that are present externally. It is evident from the fact that we may sometimes in React applications need to get data from the external source. It is quite difficult to fetch such data so that they can be normally shown on the website."
     },
     {
       "id": 10,
       "title": "python_Libraries Usage",
-      "datetime": "October 21, 2023 12:26:55 AM",
+      "datetime": "October 19, 2024 7:39:30 PM",
       "content": "Content :\nNumpy - Used for working with array and scientifi computing..\nPandas - Used for working with data set\nMatplotlib"
+    },
+    {
+      "id": 11,
+      "title": "Spring Boot",
+      "datetime": "July 26, 2024 11:24:57 AM",
+      "content": "Spring is an open - source java framework. spring boot is an extension of the spring framework that simplifies the initial setup and development of new spring application."
     }
   ]
 }
